@@ -1,5 +1,6 @@
 import React from "react";
 import "./Testimonial.css";
+import gym from "../../img/webGym.png";
 import portofolio from "../../img/portofolio.png";
 import dashboard from "../../img/dashboard.png";
 import socialMedia from "../../img/socialMedia.png";
@@ -13,17 +14,45 @@ import "swiper/css";
 const Testimonial = () => {
   const clients = [
     {
+      img: gym,
+      review1: "Website Gym",
+      review2:
+        "An interactive Gym website with lots of animations displayed, as well as an elegant and responsive design...",
+      button1: (
+        <a
+          href="https://fitclubzan.pages.dev/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>Demo</button>
+        </a>
+      ),
+      button2: (
+        <a
+          href="https://github.com/ahmadabuya/webGym"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button>Github</button>
+        </a>
+      ),
+    },
+    {
       img: portofolio,
       review1: "Website Portofolio",
       review2:
         "An interactive portfolio website with lots of animation displayed, as well as an elegant and responsive design...",
       button1: (
-        <a href="#1" target="_blank">
+        <a href="#1" target="_blank" rel="noreferrer">
           <button>Demo</button>
         </a>
       ),
       button2: (
-        <a href="#2" target="_blank">
+        <a
+          href="https://github.com/ahmadabuya/portofolio_abuya"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button>Github</button>
         </a>
       ),
@@ -34,12 +63,16 @@ const Testimonial = () => {
       review2:
         "admin dashboard website which is useful for monitoring incoming and outgoing data via graphs, elegant design, available calendar and todo-list features, etc...",
       button1: (
-        <a href="#3" target="_blank">
+        <a href="#3" target="_blank" rel="noreferrer">
           <button>Demo</button>
         </a>
       ),
       button2: (
-        <a href="#4" target="_blank">
+        <a
+          href="https://github.com/ahmadabuya/Dashboard"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button>Github</button>
         </a>
       ),
@@ -50,12 +83,16 @@ const Testimonial = () => {
       review2:
         "website social media seperti hal nya instagram disertai fitur login, update profile dan upload foto dengan design yang memanjakan mata...",
       button1: (
-        <a href="#5" target="_blank">
+        <a href="#5" target="_blank" rel="noreferrer">
           <button>Demo</button>
         </a>
       ),
       button2: (
-        <a href="#6" target="_blank">
+        <a
+          href="https://github.com/ahmadabuya/social_media3"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button>Github</button>
         </a>
       ),
@@ -66,12 +103,16 @@ const Testimonial = () => {
       review2:
         "Multi user login which is used to limit access to certain users...",
       button1: (
-        <a href="#7" target="_blank">
+        <a href="#7" target="_blank" rel="noreferrer">
           <button>Demo</button>
         </a>
       ),
       button2: (
-        <a href="#8" target="_blank">
+        <a
+          href="https://github.com/ahmadabuya/MultiUser"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button>Github</button>
         </a>
       ),
@@ -82,12 +123,16 @@ const Testimonial = () => {
       review2:
         "Learn web CRUD (create update and delete) which is useful for building a website with a connection to a database...",
       button1: (
-        <a href="#9" target="_blank">
+        <a href="#9" target="_blank" rel="noreferrer">
           <button>Demo</button>
         </a>
       ),
       button2: (
-        <a href="#10" target="_blank">
+        <a
+          href="https://github.com/ahmadabuya/CRUD"
+          target="_blank"
+          rel="noreferrer"
+        >
           <button>Github</button>
         </a>
       ),
