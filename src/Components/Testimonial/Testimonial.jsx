@@ -1,5 +1,6 @@
 import React from "react";
 import "./Testimonial.css";
+import gym from "../../img/webGym.png";
 import portofolio from "../../img/portofolio.png";
 import dashboard from "../../img/dashboard.png";
 import socialMedia from "../../img/socialMedia.png";
@@ -12,6 +13,22 @@ import "swiper/css";
 
 const Testimonial = () => {
   const clients = [
+    {
+      img: gym,
+      review1: "Website Gym",
+      review2:
+        "An interactive Gym website with lots of animations displayed, as well as an elegant and responsive design...",
+      button1: (
+        <a href="#1" target="_blank">
+          <button>Demo</button>
+        </a>
+      ),
+      button2: (
+        <a href="#2" target="_blank">
+          <button>Github</button>
+        </a>
+      ),
+    },
     {
       img: portofolio,
       review1: "Website Portofolio",
